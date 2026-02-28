@@ -1,0 +1,57 @@
+
+
+body{
+    background-color: white ;
+    padding-left: 300px;
+    padding-right: 300px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.header {
+    display: flex;
+    align-items: center; /* Align image and text vertically */
+    gap: 20px; /* Adjust spacing between the logo and text */
+  }
+  
+  .logo {
+    height: 50px; /* Adjust as needed */
+    width: auto; /* Maintain aspect ratio */
+  }
+  
+  .title {
+    font-size: 2em; /* Adjust text size */
+    font-weight: bold;
+  }
+
+nav ul {
+    list-style: none; /* Remove bullet points */
+    padding: 0;
+    margin: 0;
+    display: flex; /* Make the list items appear in a row */
+    gap: 30px; /* Add spacing between items */
+    font-size: 12px;
+}
+
+nav ul li {
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: grey;
+    font-weight: bold;
+    padding: 0;
+}
+h2{
+    font-size: 20px;
+    margin-top: 50px;
+    line-height: 1.5;
+    color: black;
+
+}
+p{
+    line-height: 1.5;
+}
+
+
