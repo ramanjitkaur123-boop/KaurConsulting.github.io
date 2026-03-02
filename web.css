@@ -54,4 +54,13 @@ p{
     line-height: 1.5;
 }
 
+.service-link {
+    text-decoration: none;
+    color: inherit;
+}
+
+.service-link:hover .service {
+    transform: translateY(-5px);
+    transition: 0.3s;
+}
 
